@@ -226,7 +226,7 @@ Os dados coletados são visualizados por meio de widgets personalizados:
 
 Este projeto foi documentado em um artigo detalhado, disponível para leitura no formato PDF.
 
-📥 [Clique aqui para acessar o artigo completo](artigo/estacao_meteorologica_esp32.pdf)
+📥 [Clique aqui para acessar o artigo completo](artigo/Monitoramento%20Ambiental%20em%20Tempo%20Real%20com%20ESP32%20Uma%20Abordagem%20via%20IoT.pdf)
 
 <br>
 
