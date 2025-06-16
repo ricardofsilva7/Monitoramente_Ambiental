@@ -46,6 +46,16 @@ A estação utiliza sensores para medir:
 
 ![Diagrama da Arquitetura](imgs/diagrama_arquitetura.png)
 
+```mermaid
+flowchart TD
+    Inicio([Início]) --> LeituraSensores[Leitura dos sensores: BMP280, GUVA-S12S, FC-37]
+    LeituraSensores --> ProcessamentoESP32[Processamento e formatação dos dados no ESP32]
+    ProcessamentoESP32 --> ConexaoWiFi[Conexão Wi-Fi estabelecida]
+    ConexaoWiFi --> EnvioHTTP[Envio dos dados via HTTP]
+    EnvioHTTP --> ThingsBoard[Recepção e visualização dos dados no ThingsBoard]
+    ThingsBoard --> Fim([Monitoramento em tempo real])
+```
+
 <br>
 
 ## ⚙️ Montagem do Hardware
